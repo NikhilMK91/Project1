@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Clinic</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #f8f8f8;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        form input, form textarea, form button {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Example Clinic</h1>
+    <p>Your health is our priority</p>
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="container">
+    <h2>About Us</h2>
+    <p>Example Clinic is a state-of-the-art medical facility offering comprehensive healthcare services. Our team of experienced doctors and caring staff are dedicated to providing the highest level of medical care.</p>
+</section>
+
+<section id="services" class="container">
+    <h2>Our Services</h2>
+    <ul>
+        <li>General Consultation</li>
+        <li>Pediatric Care</li>
+        <li>Diagnostic Services</li>
+        <li>Specialist Referrals</li>
+        <li>Preventive Health Checkups</li>
+    </ul>
+</section>
+
+<section id="contact" class="container">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> 123 Health Street, Wellness City, Country</p>
+    <p><strong>Phone:</strong> +123 456 7890</p>
+    <p><strong>Email:</strong> info@exampleclinic.com</p>
+
+    <h3>Book an Appointment</h3>
+    <form>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="4"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Example Clinic. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
